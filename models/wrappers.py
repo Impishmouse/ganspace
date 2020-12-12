@@ -136,10 +136,13 @@ class StyleGAN2(BaseModel):
     def use_z(self):
         self.w_primary = False
 
+
+    # expressions 14BeHe2SO6wLO87GqlHkRK4WabZCQZuCj - pkl file.
+    # expressions pt  1thlbgVduoiqU4l89YtqzgEPnpaj7qoXk
     # URLs created with https://sites.google.com/site/gdocs2direct/
     def download_checkpoint(self, outfile):
         checkpoints = {
-            'expressions': 'https://drive.google.com/uc?export=download&id=14BeHe2SO6wLO87GqlHkRK4WabZCQZuCj',
+            'expressions': 'https://drive.google.com/uc?export=download&id=1thlbgVduoiqU4l89YtqzgEPnpaj7qoXk',
             'horse': 'https://drive.google.com/uc?export=download&id=18SkqWAkgt0fIwDEf2pqeaenNi4OoCo-0',
             'ffhq': 'https://drive.google.com/uc?export=download&id=1FJRwzAkV-XWbxgTwxEmEACvuqF5DsBiV',
             'church': 'https://drive.google.com/uc?export=download&id=1HFM694112b_im01JT7wop0faftw9ty5g',
